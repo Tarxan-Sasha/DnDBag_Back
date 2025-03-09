@@ -1,0 +1,5 @@
+insert into spell (name_spell, component_v, component_s, component_m, duration_spell, distance_spell, time_of_application_spell, description_spell)
+values ('Ведьмин снаряд', 'В', 'C', 'веточка дерева, в которое ударила молния', '1 действие','30 футов','Концентрация, вплоть до 1 минуты','Луч потрескивающей синеватой энергии устремляется к существу в пределах дистанции, формируя между вами и целью непрерывный дуговой разряд.' );
+
+insert into spell (name_spell, component_v, component_s, component_m, duration_spell, distance_spell, time_of_application_spell, description_spell)
+values ('Огненный шар', 'В', 'C', 'крошечный шарик из гуано летучей мыши и серы', '1 действие','150 футов','Мгновенная','Яркий луч вылетает из вашего указательного пальца в точку, выбранную вами в пределах дистанции, где и происходит взрыв пламени с гулким рёвом.' )

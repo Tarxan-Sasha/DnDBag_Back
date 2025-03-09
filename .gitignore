@@ -1,0 +1,12 @@
+HELP.md
+target/
+*.jar
+*.war
+
+logs/
+*.log
+
+.idea/
+*.iml
+
+.vscode/
