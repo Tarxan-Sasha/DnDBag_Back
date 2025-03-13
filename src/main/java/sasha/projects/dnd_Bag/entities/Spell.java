@@ -20,6 +20,9 @@ public class Spell {
     @Column(name="name_spell")
     private String name;
 
+    @Column(name="level_spell")
+    private String level;
+
     @Column(name="component_v")
     private String componentV;
 
@@ -111,5 +114,13 @@ public class Spell {
 
     public void setTimeOfApplicationSpell(String timeOfApplicationSpell) {
         this.timeOfApplicationSpell = timeOfApplicationSpell;
+    }
+
+    public String getLevel() {
+        return level;
+    }
+
+    public void setLevel(String level) {
+        this.level = level;
     }
 }
